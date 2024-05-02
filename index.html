@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8">
+<title>修学旅行TOP
+		</title>
+		<link rel="stylesheet" href="css/background.css">
+		<link rel="icon" href="favicon/favicon.ico">
+<script type="text/javascript">
+<!--
+
+function disp(url){
+
+	window.open(url, "予報画面ビューア", "width=1497,height=843.75,scrollbars=yes");
+
+}
+
+// -->
+</script>
+
+
+</head>
+<body>
+<font face="HiraMaruProN-W4">
+<font size="7"><b>修学旅行関連</b></font>
+<font face="HiraginoSans-W5">
+<br>
+<Div Align="right">現在時刻　<span id="view_clock"></span>
+
+<script type="text/javascript">
+timerID = setInterval('clock()',500); //0.5秒毎にclock()を実行
+
+function clock() {
+	document.getElementById("view_clock").innerHTML = getNow();
+}
+
+function getNow() {
+	var now = new Date();
+	var year = now.getFullYear();
+	var mon = now.getMonth()+1; //１を足すこと
+	var day = now.getDate();
+	var hour = now.getHours();
+	var min = now.getMinutes();
+	var sec = now.getSeconds();
+
+	//出力用
+	var s = year + "年" + mon + "月" + day + "日" + hour + "時" + min + "分" ; 
+	return s;
+}
+</script></Div>
+<br>
+
+<font size="7"><a href="page/R6_3-1-4_school_trip_plan.pdf">🟡プランPDF</a><br><a href="page/Map1.html">🟣1日目マップ</a><br>
+	　<a href="page/Map2.html">2日目</a>
+			</body>
+			<br>
+</html>
