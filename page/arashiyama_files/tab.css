@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tab-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tab-label {
+    color: #fff;
+    background: #C9CACA;
+    margin: 0 20px;
+    padding: 0px 12px;
+    order: -1;
+	cursor:pointer;
+	height:30px;
+	font-size:18px;
+	min-width:180px;
+	text-align:center;
+	
+}
+.tab-content {
+	margin-top:50px; 
+    width: 100%;
+    display: none;
+}
+/* アクティブなタブ */
+.tab-switch:checked+.tab-label {
+    background: #272828;
+}
+.tab-switch:checked+.tab-label+.tab-content {
+     display: block;
+}
+/* ラジオボタン非表示 */
+.tab-switch {
+    display: none;
+
+}
