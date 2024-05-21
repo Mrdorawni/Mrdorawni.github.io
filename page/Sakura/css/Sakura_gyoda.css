@@ -1,0 +1,191 @@
+body {
+  background-image: url(../img/back.jpg);
+}
+
+.relative{
+  position: relative;
+  width: 0px;
+  height: 0px;
+}
+.absolute01{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+ 
+}
+.absolute02{
+  position: absolute;
+  top: 0vw;
+  left: -0.3vw;
+   width: 45%; 
+
+  
+}
+
+.absolute03{
+  position: absolute;
+  top: 1vw;
+  left: -0.3vw;
+   width: 33%; 
+
+  
+}
+
+.absolute04{
+  position: absolute;
+  top: 5.9vw;
+  left: -20vw;
+   width: 65%; 
+
+  
+}
+
+
+.absolute06{
+  position: absolute;
+  top: 18px;
+  left: -1050px;
+ 
+}
+
+.absolute07{
+  position: absolute;
+  top: 106.8px;
+  left: -1630px;
+ 
+}
+
+
+.absolute08{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+ 
+}
+
+
+.absolute09{
+  position: absolute;
+  top: 250px;
+  left: 30px;
+ 
+}
+
+
+
+
+#rounded-box {
+  width: 200px;
+  opacity: 1;
+  height: 200px;
+  border-radius: 0px;
+  background-color: rgb(88, 88, 88);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px; border:0px solid #ff0000
+  
+  
+}
+
+
+.text-wrap {
+  font-size: 25pt;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.absolute11{
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+ 
+}
+
+.absolute12{
+  position: absolute;
+  bottom: 20px;
+  left: 150px;
+ 
+}
+
+#rounded-box3 {
+  width: 80px;
+  opacity: 1;
+  height: 12px;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px; border:1.5px solid #ffffff
+  
+  
+}
+
+#rounded-box4 {
+  width: 40px;
+  opacity: 1;
+  height: 12px;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px; border:1.5px solid #ffffff
+  
+  
+}
+
+#rounded-box5 {
+  width: 10px;
+  opacity: 1;
+  height: 12px;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px; border:1.5px solid #ffffff
+  
+  
+}
+
+#rounded-box6 {
+  width: 10px;
+  opacity: 1;
+  height: 12px;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px; border:1.5px solid #ffffff
+  
+  
+}
+
+.absolute13{
+  position: absolute;
+  bottom: 60px;
+  left: 30px;
+ 
+}
+
+.absolute14{
+  position: absolute;
+  bottom: 60px;
+  left: 70px;
+ 
+}
