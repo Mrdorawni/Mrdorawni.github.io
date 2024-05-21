@@ -1,0 +1,112 @@
+
+<html>
+<head><meta charset="UTF-8">
+<title>YT気象支援ツールNEW 桜開花状況
+		</title>
+		<link rel="stylesheet" href="../css/Sakura.css">
+		<link rel="icon" href="../favicon/favicon.ico">
+<script type="text/javascript">
+<!--
+
+function disp(url){
+
+	window.open(url, "予報画面ビューア", "width=1497,height=843.75,scrollbars=yes");
+
+}
+
+// -->
+</script>
+
+<style type="text/css">
+	body {
+	   margin: 0;
+	   padding: 0;
+	}
+	</style>
+
+</head>
+<body>
+	<div class="relative"></div>
+	<iframe width="100%" height="100%" src="Sakura_back.html" frameborder="0"></iframe>
+    
+
+	<img height="89.5885px" src="../img/Sakura2-2.png" class="absolute06">
+	<img height="89.5885px" src="../img/Sakura2-2-2.png" class="absolute06">
+	<img width="1200px" src="../img/Sakura3.png" class="absolute07">
+	<!--<img width="600px" src="../img/044_b5.png" class="absolute08">-->
+
+
+
+<div style="position: absolute; top: -5.5px; left: 25px; max-width: 100%; max-height: 100%; padding: 10px; text-align: left;">
+	<p><font face="HiraginoSans-W3"><font color="white"><div style="font-size:57px;"><b>さくらの開花•満開</b></div></font></font></p><font color="white">
+		<font face="HiraginoSans-W5"><DIV style="line-height: 55px;"><div style="font-size:49.5px;">
+			<span id="view_clock"></span>
+
+				<span id="view_today"></span>
+
+<script type="text/javascript">
+document.getElementById("view_today").innerHTML = getToday();
+
+function getToday() {
+	var now = new Date();
+	var year = now.getFullYear();
+	var mon = now.getMonth()+1; //１を足すこと
+	var day = now.getDate();
+	var you = now.getDay(); //曜日(0～6=日～土)
+	var hour = now.getHours();
+	var min = now.getMinutes();
+	var sec = now.getSeconds();
+
+	//曜日の選択肢
+	var youbi = new Array("日","月","火","水","木","金","土");
+	//出力用
+	var s = mon + "月" + day + "日(" + youbi[you] + ")" +  "まで";
+	return s;
+}
+</script></font></div>
+		</div>
+	</span><!--4月12日(金)まで--></font></div></DIV>
+	<div class="absolute09">
+		<div id="rounded-box"><font face="HiraginoSans-W5"><div style="font-size: 35pt;">
+		<font color="white"><img width="50pt" src="../img/813.png">つぼみ<br>
+		<img width="50pt" src="../img/814.png">開花<br>
+		<img width="50pt" src="../img/815.png">満開<br></font></font></div>
+	  </div></div></div>
+
+	  <div class="absolute10">
+		<div id="rounded-box2"><font face="HiraginoSans-W6"><div style="font-size: 23.5pt;">
+		<font color="white"><u>現在、‘‘開花状況にリンク,,は使用することができません。</u><br>
+		</font></font></div>
+	  </div></div></div>
+
+<a href="Sakura_gyoda_1.html">
+	  <div class="absolute11">
+		<div id="rounded-box3"><font face="HiraginoSans-W4"><div style="font-size: 10pt;">
+		<font color="white">桜リポートへ<br>
+		</font></font></div>
+	  </div></div></div></a>  
+
+	  <span style="cursor:pointer;">
+ <div class="absolute12">
+	  <a onclick="window.location.reload(true);"><div id="rounded-box4"><font face="HiraginoSans-W4"><div style="font-size: 10pt;">
+		<font color="white">
+		<i class="fa fa-refresh" aria-hidden="true"></i>更新</font></font></div>
+	</div></div></div>
+	</a></span>
+	
+	
+	  
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
