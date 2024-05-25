@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  color: #ffffff;
+}
+
+.resizeimage img { 
+  width: 100%; 
+  
+  }
+
+  * {
+  
+        margin: 0px;
+  
+        padding: 0px;
+  
+    }
+    

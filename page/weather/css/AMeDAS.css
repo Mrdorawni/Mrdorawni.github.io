@@ -1,0 +1,7 @@
+body {
+  background-color: black;
+  color: #ffffff;
+}
+
+.resizeimage img { width: 97%; }
+
