@@ -1,0 +1,73 @@
+<html>
+<head><meta charset="UTF-8">
+<title>YT気象支援ツールNEW ウィンドフロー
+		</title>
+		<link rel="stylesheet" href="../css/wind_flow-background.css">
+		<link rel="icon" href="../favicon/VIS/favicon.ico">
+<script type="text/javascript">
+<!--
+
+function disp(url){
+
+	window.open(url, "予報画面ビューア", "width=1497,height=843.75,scrollbars=yes");
+
+}
+
+// -->
+</script>
+
+<style type="text/css">
+	body {
+	   margin: 0;
+	   padding: 0;
+	}
+	</style>
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+	<span style="cursor:default;"> <div class="relative"></div>
+	<iframe width="100%" height="100%" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=m/s&zoom=6&overlay=wind&product=ecmwf&level=surface&lat=38.464&lon=138.201" frameborder="0"></iframe>
+    <img src="../img/wind_flow2.png" class="absolute02">
+	<a href="wind_flow_globe.html"><img width="15px" src="../favicon/VIS_Globe/favicon.ico" class="absolute03"></a>
+	<div style="position: absolute; top: 5; left: 30; max-width: 100%; max-height: 100%; padding: 30px; text-align: left;">
+		<p><font face="HiraginoSans-W6"><div style="font-size:50pt;">風の予想（地上付近）</div></font></p><font color="white">
+			<font face="Arial"><div style="font-size:38pt;"><span id="view_clock"></span>
+
+				<span id="view_today"></span>
+
+<script type="text/javascript">
+document.getElementById("view_today").innerHTML = getToday();
+
+function getToday() {
+	var now = new Date();
+	var year = now.getFullYear();
+	var mon = now.getMonth()+1; //１を足すこと
+	var day = now.getDate();
+	var you = now.getDay(); //曜日(0～6=日～土)
+	var hour = now.getHours();
+	var min = now.getMinutes();
+	var sec = now.getSeconds();
+
+	//曜日の選択肢
+	var youbi = new Array("日","月","火","水","木","金","土");
+	//出力用
+	var s = mon + "月" + day + "日(" + youbi[you] + ")" + hour + "時";
+	return s;
+}
+</script></font></div>
+		</div>
+	</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
